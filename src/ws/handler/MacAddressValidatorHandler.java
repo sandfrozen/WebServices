@@ -69,8 +69,7 @@ public class MacAddressValidatorHandler implements SOAPHandler<SOAPMessageContex
                 }
 
                 //if mac address is not match, throw exception
-                
-                if (!macValue.equals("YOUR-MAC-ADDRESS")) {
+                if (!macValue.equals("78-4F-43-90-11-65")) {
                     generateSOAPErrMessage(soapMsg, "Invalid mac address, access is denied.");
                 }
 
