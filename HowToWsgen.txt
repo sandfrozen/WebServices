@@ -1,0 +1,3 @@
+In Netbeans:
+1. cd WebServices/build/classes
+2. wsgen -keep -verbose -cp . ws.ServerInfo
